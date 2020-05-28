@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 mkdir -p {{app_name}}.AppDir
 cp -r bundle/deb/{{bundle_name}}/data/usr {{app_name}}.AppDir
